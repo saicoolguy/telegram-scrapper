@@ -1,0 +1,4 @@
+import bs4
+import urllib3
+http = urllib3.poolmanager()
+r = http.request('GET', 'https://web.telegram.org/#/im?p=@CurrentCRNC')
